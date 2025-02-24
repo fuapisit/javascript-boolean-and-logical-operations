@@ -1,12 +1,9 @@
-let isOver18 ;
-// let hasCriminalBlacklist;
+let isOver18 = 18; 
+let hasCriminalBlacklist = false;  
+let jamesAge = 21 > isOver18; 
+let jamesBlacklist = false && hasCriminalBlacklist  ;
 
-let isAllow;
+// let isAllow = isOver18 && hasCriminalBlacklist; 
+let isAllow = jamesAge && jamesBlacklist; 
 
-// Start coding here
-
-let jamesAge = 18
-let hasCriminalBlacklist = true; 
-
-
-console.log(isAllow); jamesAge>18 || !hasCriminalBlacklist 
+console.log(isAllow); 
